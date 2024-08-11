@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Lexer">
+      <UniqueIdentifier>{0717b4c4-542d-45d9-ae2d-df07f392d8a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Parser">
+      <UniqueIdentifier>{0fee3401-415b-46ae-9da2-43cc7589f263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Lexer">
+      <UniqueIdentifier>{bbae976c-17d1-4957-87f2-d2eeb593f907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Utills">
+      <UniqueIdentifier>{518f1c9e-b472-499c-8dd6-979e957a91b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Utills">
+      <UniqueIdentifier>{204c4198-a1b9-4455-9971-a81711a03930}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Token.cpp">
+      <Filter>Исходные файлы\Lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexer.cpp">
+      <Filter>Исходные файлы\Lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="char_utils.cpp">
+      <Filter>Исходные файлы\Utills</Filter>
+    </ClCompile>
+    <ClCompile Include="ignore_symbols.cpp">
+      <Filter>Исходные файлы\Utills</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Token.h">
+      <Filter>Файлы заголовков\Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexer.h">
+      <Filter>Файлы заголовков\Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="char_utils.h">
+      <Filter>Файлы заголовков\Utills</Filter>
+    </ClInclude>
+    <ClInclude Include="ignore_symbols.h">
+      <Filter>Файлы заголовков\Utills</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
